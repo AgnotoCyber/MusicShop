@@ -1,0 +1,216 @@
+nav[role="frontier"]
+  {             color:black;
+                font-weight:100;
+                text-decoration :none;
+                font-family:fantasy;
+                text-align: center;
+            }
+body
+{
+                background-image: url(groundPic.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size:cover;
+                display:grid;
+                width: auto:
+               
+            }
+header img
+ {
+                width: auto;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            
+            }
+nav[role="frontier"] ul
+{
+                display: block;
+                margin:center;
+                height:65px;
+                line-height: 35px;
+                padding-top:15px;
+                padding-left: 1px;
+                text-decoration-color: black;
+    
+            }
+nav[role="logform"] ul
+{
+                margin:center;
+                height:150px;
+                line-height: 40px;
+                padding-top:15px;
+    
+               
+            }
+nav[role="frontier"] ul li
+{               color: black ;
+                font-size: 20px;
+                width:14%;
+                display :inline-grid;
+                background-color: silver;
+                letter-spacing: 1px;
+                text-shadow: 2px 2px 5px white;
+                padding-left: 15px;
+                padding-right: 15px;
+                text-align: center;
+                border-radius: 5px;
+                border: solid silver 2px;
+            }
+ nav ul li:hover{
+                 background-color: black;
+                 color: silver;
+                 font-weight: 100;
+                 cursor :pointer;
+                 border: silver bold 2px;
+            }
+      
+#wrapper
+{
+                width:1040px;
+                margin:auto;
+                background-color:black;
+                padding:20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border-radius: 20px;
+  
+              
+            }
+  /*  #imgpnd
+    { 
+        width:200px;
+        float:right;
+        margin:10px;
+        outline-color:greenyellow;
+        border-bottom-left-radius: 50px;
+        border-bottom-color:greenyellow;
+        border-bottom-style: ridge;
+        shape-margin: 50px;
+        align-content: center;
+        animation: 1px;
+        text-decoration-style: dotted;
+        align-items: flex-end;
+        animation-delay: 5px;
+        opacity: 0.9;
+        orphans: 1;
+    }*/
+p{
+   font-weight : bolder;
+text-decoration : bold;
+font-family : Irish Grover ;
+color : seagreen;
+   
+}
+
+nav[role="logform"]
+{
+                background-color:silver;
+                text-decoration-color: black;
+                font-weight : bolder;
+                text-decoration : bold;
+                margin-left: auto;
+                margin : left; 
+                border-radius: 5px;
+                font-family:monospace;
+            
+}
+footer
+{
+    font-family:Zelda ;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+    height: auto;
+  position: relative;
+ 
+}
+
+/* Hide the images by default */
+.SlideShow {
+  display: none;
+}
+
+
+
+
+/* Captions*/
+.text {
+     color: white;
+     font-size: 30px;
+     padding-bottom: 9px;
+     padding-right: 370px;
+     position: absolute;
+     bottom: 5px;
+     width: 100%;
+     text-align: center;
+     text-shadow: 5px 2px 5px white;
+     font-family:fantasy;
+     letter-spacing: 5px;
+      
+}
+
+.Titles
+{
+    color: black;
+    text-align: center;
+    align-content: center;
+    
+}
+#haupt 
+{
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-around;
+    
+}
+ .row1, .row2{
+     display: table;
+     justify-content: space-around;
+      margin-left: 160px;
+                      }
+.featuredPR
+{
+    align-content: center;
+    width: 20%;
+    padding: 10px;
+    height: 450px;
+    cursor: pointer;
+}
+.featuredPR:hover
+{
+    width: 25%;
+    padding: 10px;
+    height: 550px;
+}
+
+.topBar
+{   
+    position:fixed;
+    background-color: darkgrey;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 70px;
+    justify-content:space-between;
+    opacity: 0.9;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+}
+.barLogo 
+{
+    height: 100%;
+    width: 220px;
+    cursor: pointer;
+}
+.navIcon
+{
+    height: 41px;
+    width: 50px;
+    border: solid 1px ;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 1020px;
+}

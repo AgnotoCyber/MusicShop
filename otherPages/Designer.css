@@ -1,0 +1,42 @@
+body 
+{
+    background-image: url(pics/groundPic.jpg);
+    margin: auto;
+    width: 1000px;
+}
+header
+{
+    align-items:center;
+    margin: auto;
+    padding: inherit;
+    height:auto;
+    width: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color:floralwhite;
+    position: static;
+}
+p
+{
+    color: white;
+    border: solid  1px grey ;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family:monospace ;
+    font-size: 18px;
+    background-color:;
+    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h1 
+{
+    color: white;
+    text-shadow: 3px 3px 3px silver;
+}
+ 
+}
+footer{
+ 
+}
